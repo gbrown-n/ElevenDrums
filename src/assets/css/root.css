@@ -5,8 +5,8 @@
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0rem) {
   :root {
-    --primary: #ffba19;
-    --primaryLight: #ffd675;
+    --primary: #75caff;
+    --primaryLight: #75caff;
     --secondary: #001f3f;
     --secondaryLight: #001f3f;
     --headerColor: #1a1a1a;
@@ -15,7 +15,7 @@
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
     /* 31px - 49px */
-    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --headerFontSize: clamp(2rem, 3.9vw, 30rem);
     --bodyFontSize: 1rem;
     /* 60px - 100px top and bottom */
     --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
@@ -29,7 +29,17 @@
     line-height: 1.2em;
     font-weight: 700;
     color: var(--primary);
-    text-align: inherit;
+  }
+
+  @keyframes fadeEnterLeft {
+    from {opacity: 0; left: -50%}
+    to {opacity: 1; left: 0%}
+  }
+
+  @keyframes fade {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
   }
   .cs-title {
     position: relative;
@@ -40,7 +50,24 @@
     font-weight: 900;
     color: var(--headerColor);
     text-align: inherit;
+    animation-name: fadeEnterLeft; 
+    animation-duration: 4s;
   }
+
+  .cs-text-topper {
+    text-align:left;    
+    max-width: 40.625rem;
+    width: 100%;
+    display: block;
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    font-weight: 700;
+    color: var(--primary);
+  }
+
   .cs-text {
     margin: 0;
     max-width: 40.625rem;
@@ -194,6 +221,16 @@
   body,
   html {
     font-size: 0.55vw;
+  }
+  @keyframes fadeEnterLeft {
+    from {opacity: 0; left: -50%}
+    to {opacity: 1; left: 0%}
+  }
+
+  @keyframes fade {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
   }
 }
 /*-- -------------------------- -->
@@ -398,6 +435,7 @@
   }
   #cs-navigation .cs-li {
     opacity: 0;
+    
     /* transition from these values */
     transform: translateX(-2.5rem);
     margin-right: 0;
@@ -442,6 +480,7 @@
     font-size: clamp(1rem, 2.5vw, 1.5rem);
     line-height: 1.2em;
     color: var(--headerColor);
+    background: #EED2CC;
   }
   #cs-navigation .cs-li-link:before {
     position: absolute;
@@ -455,6 +494,7 @@
     height: 1px;
     width: 100%;
   }
+  
   #cs-navigation .cs-li-link.cs-active:before {
     display: block;
   }
@@ -740,6 +780,9 @@
     max-width: 80rem;
     width: 100%;
     gap: 1.5rem;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: lightgray;
   }
   #cs-navigation .cs-toggle {
     display: none;
@@ -778,6 +821,11 @@
     /* prevent flexbox from squishing it */
     flex: none;
   }
+  
+  #cs-navigation .cs-li:hover {
+    color: red;
+  }
+
   #cs-navigation .cs-li-link {
     position: relative;
     display: block;
@@ -787,7 +835,11 @@
     font-size: clamp(0.875rem, 1vw, 1rem);
     line-height: 1.5em;
     color: var(--bodyTextColor);
+    width: 200px;
+    height: 55px;
+    padding-top: 20px;
   }
+
   #cs-navigation .cs-li-link:hover:before {
     width: 100%;
   }
