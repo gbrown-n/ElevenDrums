@@ -208,16 +208,16 @@
     position: relative;
     border-radius: 0.3125em;
     margin: auto;
-    margin-top: -10.4375em;
+    margin-top: -20em;
     margin-bottom: 3.125em;
+    margin-left: clamp(0, 1rem, 15rem);
     max-width: 82.5em;
     width: 90%;
     padding: 3.125em 1.25em;
   }
   .services .card {
     display: block;
-    margin: auto;
-    margin-bottom: 3.125em;
+    margin: 0;
     max-width: 22.3125em;
     width: 100%;
   }
@@ -230,8 +230,8 @@
     margin: auto;
     margin-bottom: 1.4375em;
     background: var(--primary);
-    height: 30em;
-    width: 30em;
+    height: clamp(20rem, 10rem, 30rem);
+    width: clamp(20rem, 10rem, 30rem);
   }
 
   .services .card picture:hover {
@@ -264,10 +264,11 @@
 @media only screen and (min-width: 768px) {
   .services {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     width: 98%;
     font-size: min(1.8vw, 1em);
+    gap: 10rem;
   }
   .services .card {
     margin: 0;
