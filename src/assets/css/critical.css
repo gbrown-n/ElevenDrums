@@ -162,6 +162,7 @@
   }
   #hero .cs-container {
     padding: clamp(7em, 27.95vw, 17.5em) 0 clamp(9em, 30.95vw, 23.5em) 0;
+    padding-top:2em;
   }
   #hero .cs-container:after {
     position: absolute;
@@ -208,9 +209,9 @@
     position: relative;
     border-radius: 0.3125em;
     margin: auto;
-    margin-top: -20em;
+    margin-top: -15rem;
     margin-bottom: 3.125em;
-    margin-left: clamp(0, 1rem, 15rem);
+    margin-left: -1.25rem;
     max-width: 82.5em;
     width: 90%;
     padding: 3.125em 1.25em;
@@ -220,6 +221,7 @@
     margin: 0;
     max-width: 22.3125em;
     width: 100%;
+
   }
   .services .card picture {
     z-index: 0;
@@ -230,8 +232,8 @@
     margin: auto;
     margin-bottom: 1.4375em;
     background: var(--primary);
-    height: clamp(20rem, 10rem, 30rem);
-    width: clamp(20rem, 10rem, 30rem);
+    height: 100vw;
+    width: 100vw;
   }
 
   .services .card picture:hover {
@@ -263,25 +265,40 @@
 /* Inbetween */
 @media only screen and (min-width: 768px) {
   .services {
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     width: 98%;
     font-size: min(1.8vw, 1em);
-    gap: 10rem;
+    gap: 2.5vw;
+    margin-top: -25rem;
   }
   .services .card {
     margin: 0;
-    max-width: 20.3125em;
+    max-width: 20.3125em; 
   }
+
+  .services .card picture {
+    width: 20vw;
+    height: 20vw;
+  }
+
 }
 /* Large Desktop */
 @media only screen and (min-width: 1300px) {
   .services {
-    padding: 3.125em 5em;
+    margin: auto;
+    padding: 3.125em 5em;    margin-top: -25rem;
+
   }
   .services .card {
     max-width: 22.3125em;
+  }
+
+  .services .card picture {
+    width: 20vw;
+    height: 20vw;
   }
 }
 /* Dark mode */
