@@ -88,44 +88,53 @@
     border-radius: 100%;
     overflow:hidden;
 
-    background: linear-gradient(to bottom, var(--primary) 0%, var(--primaryLight) 100%);
+    background: var(--primary);
     width: 7.5rem;
     height: 7.5rem;
     padding: 2.2rem;
+
+    z-index: 1000;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: bold;
     color: #000;
 
+
     transition: color 0.3s;
     transition-delay: 0.1s;
+  }
 
-  }
-  .cs-button-solid:hover {
-    color: #fff;
-  }
-  .cs-button-solid:hover:before {
-    width: 100%;
-  }
-  .cs-button-solid:before {
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    opacity: 1;
+  .cs-button-inner {
+    border-radius: 100%;  
+    background: white;
     display: block;
+    height: 0;
+    margin:0;
+    position:absolute;
+    width:0;
+    transition: all 0.5s;
+    z-index: 1;
+}
 
-    height: 100%;
-    width: 0;
-    border-radius: 100%;
+    .cs-button-solid:hover, .cs-button-solid:active {
+      .cs-button-inner{
+        width: 6.75rem;
+        height: 6.75rem;
+      }
 
-    transition: background-color #0000.3s;
+    }
   }
+
+
+
+
+
   .cs-hide-on-mobile {
     display: none;
   }
+
+  
 }
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
