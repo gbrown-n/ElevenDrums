@@ -161,7 +161,7 @@
   }
   #hero .cs-container {
     padding: clamp(7em, 27.95vw, 17.5em) 0 clamp(9em, 30.95vw, 23.5em) 0;
-    padding-top:2em;
+    padding-top: 2em;
   }
   #hero .cs-container:after {
     position: absolute;
@@ -178,7 +178,6 @@
   }
   #hero .cs-button-solid {
     margin: 0 auto clamp(2rem, 4vw, 2.5rem) 0;
-
   }
 }
 /* Desktop Parallax Effect - 1300px */
@@ -220,7 +219,6 @@
     margin: 0;
     max-width: 22.3125em;
     width: 100%;
-
   }
   .services .card picture {
     z-index: 0;
@@ -234,7 +232,6 @@
     height: 100vw;
     width: 100vw;
   }
-
   .services .card picture:hover {
     box-shadow: 40px 40px 40px 40px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -275,26 +272,23 @@
   }
   .services .card {
     margin: 0;
-    max-width: 20.3125em; 
+    max-width: 20.3125em;
   }
-
   .services .card picture {
     width: 20vw;
     height: 20vw;
   }
-
 }
 /* Large Desktop */
 @media only screen and (min-width: 1300px) {
   .services {
     margin: auto;
-    padding: 3.125em 5em;    margin-top: -25rem;
-
+    padding: 3.125em 5em;
+    margin-top: -25rem;
   }
   .services .card {
     max-width: 22.3125em;
   }
-
   .services .card picture {
     width: 20vw;
     height: 20vw;
@@ -313,5 +307,6 @@
     color: #fff;
   }
 }
+
 
 /*# sourceMappingURL=critical.css.map */

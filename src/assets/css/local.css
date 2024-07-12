@@ -394,14 +394,11 @@
     width: 26.25em;
     border-radius: 100%;
   }
-
   #gallery .cs-row-2 .cs-picture1 {
     height: 26.25em;
     width: 26.25em;
     border-radius: 100%;
-
   }
-
   #gallery .cs-row-3 .cs-picture1 {
     height: 26.25em;
     width: 26.25em;
@@ -533,5 +530,6 @@
     color: var(--primaryLight);
   }
 }
+
 
 /*# sourceMappingURL=local.css.map */

@@ -32,16 +32,26 @@
     font-weight: 700;
     color: var(--primary);
   }
-
   @keyframes fadeEnterLeft {
-    from {opacity: 0; left: -50%}
-    to {opacity: 1; left: 0%}
+    from {
+      opacity: 0;
+      left: -50%;
+    }
+    to {
+      opacity: 1;
+      left: 0%;
+    }
   }
-
   @keyframes fade {
-    0% {opacity: 0;}
-    50% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
   .cs-title {
     position: relative;
@@ -52,12 +62,11 @@
     font-weight: 900;
     color: var(--headerColor);
     text-align: inherit;
-    animation-name: fadeEnterLeft; 
+    animation-name: fadeEnterLeft;
     animation-duration: 4s;
   }
-
   .cs-text-topper {
-    text-align:left;    
+    text-align: left;
     max-width: 40.625rem;
     width: 100%;
     display: block;
@@ -69,7 +78,6 @@
     font-weight: 700;
     color: var(--primary);
   }
-
   .cs-text {
     margin: 0;
     max-width: 40.625rem;
@@ -86,50 +94,38 @@
     align-items: center;
     text-align: center;
     border-radius: 100%;
-    overflow:hidden;
-
+    overflow: hidden;
     background: var(--primary);
     width: 7.5rem;
     height: 7.5rem;
     padding: 2.2rem;
-
     z-index: 1000;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: bold;
     color: #000;
-
-
     transition: color 0.3s;
     transition-delay: 0.1s;
   }
-
   .cs-button-inner {
-    border-radius: 100%;  
+    border-radius: 100%;
     background: white;
     display: block;
     height: 0;
-    margin:0;
-    position:absolute;
-    width:0;
+    margin: 0;
+    position: absolute;
+    width: 0;
     transition: all 0.5s;
     z-index: 1;
-}
-
-    .cs-button-solid:hover, .cs-button-solid:active {
-      .cs-button-inner{
-        width: 6.75rem;
-        height: 6.75rem;
-      }
-
-    }
-
+  }
+  .cs-button-solid:hover .cs-button-inner, .cs-button-solid:active .cs-button-inner {
+    width: 6.75rem;
+    height: 6.75rem;
+  }
   .cs-hide-on-mobile {
     display: none;
   }
-
-  
 }
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
@@ -237,14 +233,25 @@
     font-size: 0.55vw;
   }
   @keyframes fadeEnterLeft {
-    from {opacity: 0; left: -50%}
-    to {opacity: 1; left: 0%}
+    from {
+      opacity: 0;
+      left: -50%;
+    }
+    to {
+      opacity: 1;
+      left: 0%;
+    }
   }
-
   @keyframes fade {
-    0% {opacity: 0;}
-    50% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }
 /*-- -------------------------- -->
@@ -449,7 +456,6 @@
   }
   #cs-navigation .cs-li {
     opacity: 0;
-    
     /* transition from these values */
     transform: translateX(-2.5rem);
     margin-right: 0;
@@ -508,7 +514,6 @@
     height: 1px;
     width: 100%;
   }
-  
   #cs-navigation .cs-li-link.cs-active:before {
     display: block;
   }
@@ -835,11 +840,9 @@
     /* prevent flexbox from squishing it */
     flex: none;
   }
-  
   #cs-navigation .cs-li:hover {
     color: red;
   }
-
   #cs-navigation .cs-li-link {
     position: relative;
     display: block;
@@ -853,7 +856,6 @@
     height: 55px;
     padding-top: 20px;
   }
-
   #cs-navigation .cs-li-link:hover:before {
     width: 100%;
   }
@@ -1303,5 +1305,6 @@
     background: #061623;
   }
 }
+
 
 /*# sourceMappingURL=root.css.map */
