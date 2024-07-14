@@ -1,6 +1,6 @@
 module.exports = {
     "name": "Eleven Drums",
-    "email": "vonbottrell@outlook.com",
+    "email": "gbrown.hm@gmail.com",
     "phoneForTel": "555-779-4407",
     "phoneFormatted": "(555) 779-4407",
     "address": {
