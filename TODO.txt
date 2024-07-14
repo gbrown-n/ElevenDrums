@@ -1,0 +1,17 @@
+---CONTENT---
+Home
+    Images
+    Reviews
+    Text
+Reviews
+Workshops
+Contact Page
+Contact Info
+Facebook links
+---DESIGN---
+Favicons
+
+
+---TECH---
+Navbar fix
+Contact Page email 
