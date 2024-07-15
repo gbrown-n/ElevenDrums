@@ -17,6 +17,6 @@ Favicons
 
 
 ---TECH---
-Navbar fix
+Navbar fix          Doneish
 Contact Page email 
 Fix that damn annoying line on home page
