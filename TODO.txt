@@ -6,10 +6,12 @@ Home
 Reviews
     Ask Von about reviews
 Workshops
+    Women exclsuive
+    Equipment provided
 Contact Page
     Fix button
     Fix personal Info
-    test
+    test DONE
 Contact Info
 Facebook links
 ---DESIGN---
@@ -18,5 +20,5 @@ Favicons
 
 ---TECH---
 Navbar fix          Doneish
-Contact Page email 
+Contact Page email  DONE
 Fix that damn annoying line on home page
