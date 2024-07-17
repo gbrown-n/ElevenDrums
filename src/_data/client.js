@@ -7,7 +7,7 @@ module.exports = {
         "lineOne": "Tallegalla",
         "lineTwo": "",
         "city": "",
-        "state": "",
+        "state": "QLD",
         "zip": "",
         "mapLink": ""
     },
