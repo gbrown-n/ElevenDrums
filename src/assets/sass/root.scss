@@ -116,11 +116,36 @@
       transition: all 0.5s;
       z-index: 1;
   }
+
+  .cs-button-solid-img{
+    position:absolute;
+    height: 5rem;
+    width: 5rem;
+    z-index: 1;
+  }
+
+  .cs-button-solid-title{
+    position:absolute;
+    background:transparent;
+    margin:15%; 
+    color:black;
+    z-index: -100;
+  }
+
+
   
       .cs-button-solid:hover, .cs-button-solid:active {
         .cs-button-inner{
           width: 6.75rem;
           height: 6.75rem;
+        }
+
+        .cs-button-solid-title{
+          z-index: 1;
+        }
+
+        .cs-button-solid-img {
+          z-index: -1;
         }
   
       }

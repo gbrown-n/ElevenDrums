@@ -1,24 +1,26 @@
 ---CONTENT---
 Home
-    Images
-    Reviews
+    Images                              DONE
+    Reviews                             DONE
     Text
 Reviews
-    Ask Von about reviews
+    Ask Von about reviews               DONE
 Workshops
     Women exclsuive
     Equipment provided
 Contact Page
     Fix button
-    Fix personal Info
-    test DONE
-Contact Info
+    Fix personal Info                   DONE
+    test                                DONE
+Contact Info                            DONE
 Facebook links
 ---DESIGN---
 Favicons
+Logo added to header/footer
+Facebook Link on Footer
 
 
 ---TECH---
-Navbar fix          Doneish
-Contact Page email  DONE
+Navbar fix - fix on mobile                           
+Contact Page email                      DONE
 Fix that damn annoying line on home page

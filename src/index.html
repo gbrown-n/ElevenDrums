@@ -55,7 +55,7 @@ eleventyNavigation:
                     </a>
                     <a href="/contact" class="cs-button-solid">
                         <span class="cs-button-inner"></span>
-                        <p class="cs-button-solid" style="background:transparent; margin:5%; color:black">Get in Touch</p>
+                        <p class="cs-button-solid-title">Get in Touch</p>
                     </a>
                 </div>
             </div>
@@ -115,7 +115,8 @@ eleventyNavigation:
                 </div>
                 <a href="/about" class="cs-button-solid">
                     <span class="cs-button-inner"></span>
-                    <p class="cs-button-solid" style="background:transparent; margin:5%;">More About Us</p>
+                    <img class="cs-button-solid-img" src="/assets/images/about.png">
+                    <p class="cs-button-solid-title" style="margin:20%">More About Us</p>
                 </a>
             </div>
         </div>
@@ -146,9 +147,17 @@ eleventyNavigation:
                 <p class="cs-text">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non tenetur, iure nihil ipsam qui atque commodi id voluptatem nesciunt, quis animi fuga cum doloribus! Eaque laboriosam, unde consectetur iure asperiores ullam. Consequuntur debitis a voluptatibus vitae optio autem explicabo quia neque est quas, in placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus modi laudantium voluptatibus rem libero error minus quia eligendi sapiente eos.
                 </p>
-                <a href="/blog" class="cs-button-solid">
+                
+                <!-- BLOG BUTTON - HIDDEN UNTIL BLOG ADDED-->
+                <a href="/blog" class="cs-button-solid" style="display:none">
                     <span class="cs-button-inner"></span>
-                    <p class="cs-button-solid" style="background:transparent; margin:5%;">Read Our Blog</p>
+                    <img class="cs-button-solid-img" src="/assets/images/paper.png">
+                    <p class="cs-button-solid-title" style="margin: 20%;">Read Our Blog</p>
+                </a>
+                <a href={{client.socials.facebook}} class="cs-button-solid">
+                    <span class="cs-button-inner"></span>
+                    <img class="cs-button-solid-img" src="/assets/images/social.png">
+                    <p class="cs-button-solid-title" style="margin:50%">Like Us On Facebook</p>
                 </a>
             </div>
         </div>
@@ -241,10 +250,13 @@ eleventyNavigation:
                     height="16"/>
                 </li>
             </ul>
-            <a href="/reviews" class="cs-button-solid">
-                <span class="cs-button-inner"></span>
-                <p class="cs-button-solid" style="background:transparent; margin:5%;">Reviews</p>
-            </a>
+            <div class="cs-flex-group" style="padding: 1% 0">
+                <a href="/reviews" class="cs-button-solid">
+                    <span class="cs-button-inner"></span>
+                    <img class="cs-button-solid-img" src="/assets/images/star.png">
+                    <p class="cs-button-solid-title">Reviews</p>
+                </a>
+            </div>
         </div>
     </section>
 

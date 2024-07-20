@@ -107,6 +107,22 @@
       margin: 0 auto clamp(2rem, 4vw, 2.5rem) 0;
       height: 7.5rem;
     }
+
+    #hero .cs-button-solid-title{
+      position:absolute;
+      background:transparent;
+      margin:15%; 
+      color:black;
+      z-index: -1;
+    }
+
+    #hero .cs-button-solid-img { 
+    position:absolute;
+    height: 5rem;
+    width: 5rem;
+    z-index: 1;
+    
+  }
     #hero .cs-button-transparent {
       z-index: 1;
       position: relative;
