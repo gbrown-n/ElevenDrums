@@ -103,26 +103,81 @@
       color: var(--bodyTextColorWhite);
       text-align: center;
     }
+
+    //BUTTON AND ANIMATION
     #hero .cs-button-solid {
-      margin: 0 auto clamp(2rem, 4vw, 2.5rem) 0;
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 100%;
+      overflow:hidden;
+  
+      background: var(--primary);
+      width: 7.5rem;
       height: 7.5rem;
+      padding: 2.2rem;
+  
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #000;
+  
+  
+      transition: color 0.3s;
+      transition-delay: 0.1s;
     }
-
-    #hero .cs-button-solid-title{
+  
+    #hero .cs-button-inner {
+      border-radius: 100%;  
+      background: white;
+      display: block;
+      height: 0;
+      margin:0;
       position:absolute;
-      background:transparent;
-      margin:15%; 
-      color:black;
-      z-index: -1;
-    }
+      width:0;
+      transition: all 0.5s;
+  }
 
-    #hero .cs-button-solid-img { 
+  #hero .cs-button-solid-img{
     position:absolute;
     height: 5rem;
     width: 5rem;
-    z-index: 1;
-    
   }
+
+  #hero .cs-button-solid-title{
+    position:absolute;
+    background:transparent;
+    margin:15%; 
+    color:black;
+    z-index: -50;
+    opacity: 0;
+  }
+
+
+  
+      #hero .cs-button-solid:hover, #hero .cs-button-solid:active {
+        .cs-button-inner{
+          width: 6.75rem;
+          height: 6.75rem;
+        }
+
+        .cs-button-solid-title{
+          z-index: 50;
+          opacity: 100;
+        }
+
+        #hero .cs-button-solid-img {
+          opacity: 0;
+          z-index: -50;
+        }
+  
+      }
+
+
+  //TRANSPARENT BUTTON
     #hero .cs-button-transparent {
       z-index: 1;
       position: relative;
