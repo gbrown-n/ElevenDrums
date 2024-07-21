@@ -86,7 +86,6 @@
     }
     #cs-contact #cs-form .cs-button-solid {
       border: none;
-      width: 100%;
     }
     #cs-contact .cs-right-section {
       position: relative;
@@ -137,6 +136,7 @@
     }
     #cs-contact .cs-link:hover:before {
       width: 100%;
+      #cs-contact .cs-button-solid-title { opacity:100 }
     }
     #cs-contact .cs-link:last-of-type {
       margin-bottom: 0;

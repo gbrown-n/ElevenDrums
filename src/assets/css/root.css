@@ -138,6 +138,7 @@
   }
   .cs-button-solid:hover .cs-button-solid-title, .cs-button-solid:active .cs-button-solid-title {
     z-index: 1;
+    opacity: 100;
   }
   .cs-button-solid:hover .cs-button-solid-img, .cs-button-solid:active .cs-button-solid-img {
     z-index: -1;
