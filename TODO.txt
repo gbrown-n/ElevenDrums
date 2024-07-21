@@ -9,15 +9,15 @@ Workshops
     Women exclsuive
     Equipment provided
 Contact Page
-    Fix button
+    Fix button                          
     Fix personal Info                   DONE
     test                                DONE
 Contact Info                            DONE
-Facebook links
+Facebook links                          DONE
 ---DESIGN---
-Favicons
+Favicons                                DONE
 Logo added to header/footer
-Facebook Link on Footer
+Facebook Link on Footer                 DONE
 
 
 ---TECH---
