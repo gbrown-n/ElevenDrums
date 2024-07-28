@@ -3,6 +3,8 @@ Home-----------------------------------------
     Images                              DONE
     Reviews                             DONE
     Text
+About----------------------------------------
+New images for values
 Reviews--------------------------------------
     Ask Von about reviews               DONE
 Workshops------------------------------------

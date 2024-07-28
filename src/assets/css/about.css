@@ -135,6 +135,109 @@
     margin: 0;
   }
 }
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+/* Mobile */
+@media only screen and (min-width: 0rem) {
+  .services {
+    z-index: 100;
+    position: relative;
+    border-radius: 5em;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 3.125em;
+    max-width: 82.5em;
+    width: 100%;
+    padding: 3.125em 1.25em;
+    background-color: rgb(235, 235, 235);
+  }
+  .services .card {
+    display: block;
+    margin: 0;
+    max-width: 22.3125em;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .services .card picture {
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 1.4375em;
+    background: var(--primary);
+    height: 20em;
+    width: 20em;
+    border-radius: 100%;
+  }
+  .services .card picture:hover {
+    box-shadow: 40px 40px 40px 40px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  .services .card picture img {
+    height: 17em;
+    width: 17em;
+    border-radius: 100%;
+  }
+  .services .card h2 {
+    margin-bottom: 0.65em;
+    font-size: 2em;
+    line-height: 1.35em;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-align: center;
+  }
+  .services .card p {
+    opacity: 0.7;
+    width: 90%;
+    margin-left: 5%;
+    line-height: 1.3333333333em;
+    text-align: center;
+  }
+  .services .card:last-of-type {
+    margin-bottom: 0;
+  }
+}
+/* Inbetween */
+@media only screen and (min-width: 768px) {
+  .services {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 98%;
+    font-size: min(1.8vw, 1em);
+    gap: 2.5vw;
+    margin-top: 0;
+  }
+  .services .card {
+    margin: 0;
+    max-width: 20.3125em;
+  }
+  .services .card picture {
+    width: 20vw;
+    height: 20vw;
+  }
+}
+/* Large Desktop */
+@media only screen and (min-width: 1300px) {
+  .services {
+    margin: auto;
+    padding: 3.125em 5em;
+    margin-top: 0;
+  }
+  .services .card {
+    max-width: 25em;
+  }
+  .services .card picture {
+    width: 20em;
+    height: 20em;
+  }
+}
 /* Dark Mode */
 @media only screen and (min-width: 0rem) {
   body.dark-mode #sbs .cs-left:before, body.dark-mode #sbs .cs-left:after {
