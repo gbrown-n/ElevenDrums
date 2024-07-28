@@ -256,20 +256,21 @@
   .services {
     z-index: 100;
     position: relative;
-    border-radius: 0.3125em;
+    border-radius: 5em;
     margin: auto;
-    margin-top: -15rem;
+    margin-top: 0;
     margin-bottom: 3.125em;
-    margin-left: -1.25rem;
     max-width: 82.5em;
-    width: 90%;
+    width: 100%;
     padding: 3.125em 1.25em;
+    background-color: rgb(235, 235, 235);
   }
   .services .card {
     display: block;
     margin: 0;
     max-width: 22.3125em;
     width: 100%;
+    margin-bottom: 1em;
   }
   .services .card picture {
     z-index: 0;
@@ -280,16 +281,18 @@
     margin: auto;
     margin-bottom: 1.4375em;
     background: var(--primary);
-    height: 100vw;
-    width: 100vw;
+    height: 20em;
+    width: 20em;
+    border-radius: 100%;
   }
   .services .card picture:hover {
     box-shadow: 40px 40px 40px 40px rgba(0, 0, 0, 0.1);
     z-index: 1000;
   }
   .services .card picture img {
-    height: 3em;
-    width: 3em;
+    height: 17em;
+    width: 17em;
+    border-radius: 100%;
   }
   .services .card h2 {
     margin-bottom: 0.65em;
@@ -319,7 +322,7 @@
     width: 98%;
     font-size: min(1.8vw, 1em);
     gap: 2.5vw;
-    margin-top: -25rem;
+    margin-top: 0;
   }
   .services .card {
     margin: 0;
@@ -335,14 +338,14 @@
   .services {
     margin: auto;
     padding: 3.125em 5em;
-    margin-top: -25rem;
+    margin-top: 0;
   }
   .services .card {
-    max-width: 22.3125em;
+    max-width: 25em;
   }
   .services .card picture {
-    width: 20vw;
-    height: 20vw;
+    width: 20em;
+    height: 20em;
   }
 }
 /* Dark mode */

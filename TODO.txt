@@ -9,7 +9,7 @@ Workshops------------------------------------
     Women exclsuive
     Equipment provided
 Contact Page---------------------------------
-    Fix button                          
+    Fix button                          DONE
     Fix personal Info                   DONE
     test                                DONE
 Contact Info                            DONE
