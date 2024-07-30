@@ -8,8 +8,8 @@ New images for values
 Reviews--------------------------------------
     Ask Von about reviews               DONE
 Workshops------------------------------------
-    Women exclsuive
-    Equipment provided
+    CONTENT                             DONE
+    Images
 Contact Page---------------------------------
     Fix button                          DONE
     Fix personal Info                   DONE
