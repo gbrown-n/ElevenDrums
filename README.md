@@ -14,5 +14,5 @@
     <li>General business operations of a freelance web developer, including producing formal agreements, contracts, and tax invoices</li>
   </ul>
 
-  View the main branch of CodeStitch <a "https://github.com/CodeStitchOfficial/Intermediate-Website-Kit-LESS">here</a> for a full breakdown of the project, including template licence
+  View the main branch of CodeStitch <a href="https://github.com/CodeStitchOfficial/Intermediate-Website-Kit-LESS">here</a> for a full breakdown of the project, including template licence
 </p>
