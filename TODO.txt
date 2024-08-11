@@ -2,14 +2,14 @@
 Home-----------------------------------------
     Images                              DONE
     Reviews                             DONE
-    Text
+    Text                                DONE
 About----------------------------------------
-New images for values
+New images for values                   DONE
 Reviews--------------------------------------
     Ask Von about reviews               DONE
 Workshops------------------------------------
     CONTENT                             DONE
-    Images
+    Images                              DONE
 Contact Page---------------------------------
     Fix button                          DONE
     Fix personal Info                   DONE
@@ -23,4 +23,3 @@ Facebook Link on Footer                 DONE
 ---TECH-------------------------------------
 Navbar fix - fix on mobile              DONE             
 Contact Page email                      DONE
-Fix that damn annoying line on home page
